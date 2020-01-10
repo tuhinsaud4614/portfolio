@@ -1,0 +1,24 @@
+.Footer {
+  background-color: #575996;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .Footer {
+    font-size: 0.5rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .Footer {
+    font-size: 1.0rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .Footer {
+    font-size: 1.2rem;
+  }
+}

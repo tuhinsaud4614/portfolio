@@ -1,0 +1,18 @@
+.TechnicalSkills {
+  border: 1px solid #e3f2fd;
+  border-radius: 4px;
+}
+
+.TechnicalSkills > span {
+  background: #575996;
+  color: #e3f2fd;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out;
+  user-select: none;
+}
+
+.TechnicalSkills > span:hover {
+  background: #e3f2fd;
+  color: #575996;
+  transform: scale(1.05);
+}

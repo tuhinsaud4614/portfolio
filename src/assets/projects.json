@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "projectType": "React JS",
+      "name": "Portfolio",
+      "imageUrl": "https://miro.medium.com/max/1380/0*ul76Z81NxYWHrBgN.png",
+      "description": "This project is about my portfolio. It's described, how did i develop my portfolio.",
+      "url": "https://github.com/tuhinsaud4614/Portfolio"
+    },
+    {
+      "id": "2",
+      "projectType": "React JS",
+      "name": "Burger Bite",
+      "imageUrl": "https://miro.medium.com/max/1380/0*ul76Z81NxYWHrBgN.png",
+      "description": "This project is about burger ordering site. It is an e-commerce site where you can add ingredients as your wish and you can also order through it.",
+      "url": "https://github.com/tuhinsaud4614/Burger-Bite"
+    },
+    {
+      "id": "3",
+      "projectType": "React Native",
+      "name": "Hacker News",
+      "imageUrl": "https://hackernoon.com/drafts/ro2832a9.png",
+      "description": "This project is a hacker news app. You can see all kind of latest news. You can this as your favorite news.",
+      "url": "https://github.com/tuhinsaud4614/react_native-hacker_news"
+    },
+    {
+      "id": "4",
+      "projectType": "MERN",
+      "name": "MERN Practicing",
+      "imageUrl": "https://i.udemycdn.com/course/750x422/2640372_5b44_3.jpg",
+      "description": "It is practicing project. Where I try to implement my knowledge about MERN.",
+      "url": "https://github.com/tuhinsaud4614/mern"
+    },
+    {
+      "id": "5",
+      "projectType": "Flutter",
+      "name": "Note App",
+      "imageUrl": "https://blog.codemagic.io/uploads/CM_Android-dev-Flutter_hua22488dd039b7eea134c52675de23638_55188_940x0_resize_linear_2.png",
+      "description": "This project is a note app. It is built by flutter with some of very essential technique.",
+      "url": "https://github.com/tuhinsaud4614/flutter_note"
+    },
+    {
+      "id": "6",
+      "projectType": "Flutter",
+      "name": "Meal App",
+      "imageUrl": "https://github.com/tuhinsaud4614/flutter_mealapp/blob/master/Screenshots/1.png",
+      "description": "The project is about meal managing. It is small app for seeing different kinds of foods and you can add them as your favorite meals.",
+      "url": "https://github.com/tuhinsaud4614/flutter_mealapp"
+    },
+    {
+      "id": "7",
+      "projectType": "Flutter",
+      "name": "Database Interaction",
+      "imageUrl": "https://blog.codemagic.io/uploads/CM_Android-dev-Flutter_hua22488dd039b7eea134c52675de23638_55188_940x0_resize_linear_2.png",
+      "description": "A project is for practicing local database using. This Project is mainly focused on database management, image picking with image picker library. I am using provider package for state management.",
+      "url": "https://github.com/tuhinsaud4614/flutter_database_interaction"
+    },
+    {
+      "id": "8",
+      "projectType": "Flutter",
+      "name": "Instagram Clone",
+      "imageUrl": "https://blog.codemagic.io/uploads/CM_Android-dev-Flutter_hua22488dd039b7eea134c52675de23638_55188_940x0_resize_linear_2.png",
+      "description": "This project is mainly focused on instagram UI Cloning. There has no functionality to interact with realtime data.",
+      "url": "https://github.com/tuhinsaud4614/flutter_instaclone_ui"
+    }
+  ]
+}

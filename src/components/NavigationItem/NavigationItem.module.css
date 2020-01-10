@@ -1,0 +1,14 @@
+.CustomActive {
+  position: relative;
+}
+.CustomActive::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: #575996;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}

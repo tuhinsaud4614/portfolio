@@ -1,0 +1,98 @@
+.Banner {
+  background-image: url("../../img/background.svg");
+  background-size: cover;
+  height: 60vh;
+  font-size: 2.5rem;
+  position: relative;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.Banner > * {
+  color: #ffffff;
+  z-index: 200;
+}
+
+.Banner::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(78, 78, 78, 0.397);
+  overflow: hidden;
+}
+
+.Banner > h4 > span {
+  display: inline-block;
+  backface-visibility: hidden;
+}
+
+@media (max-width: 576px) {
+  .Banner > h2 {
+    font-size: 1rem;
+  }
+
+  .Banner > h4 {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .Banner > h2 {
+    font-size: 1.5rem;
+  }
+
+  .Banner > h4 {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .Banner > h2 {
+    font-size: 1.5rem;
+  }
+
+  .Banner > h4 {
+    font-size: 1rem;
+    letter-spacing: 3px;
+  }
+
+  .Banner > h4 > span:hover {
+    animation: fancyText .5s ease-out;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .Banner > h2 {
+    font-size: 2rem;
+  }
+
+  .Banner > h4 {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+
+  .Banner > h4 > span:hover {
+    animation: fancyText .3s ease-out;
+  }
+}
+
+@keyframes fancyText {
+  0% {
+    transform: scaleY(1.2) scaleX(1.4);
+  }
+
+  50% {
+    transform: scaleY(1.3) scaleX(1.0);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}

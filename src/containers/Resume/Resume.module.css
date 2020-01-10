@@ -1,0 +1,53 @@
+.Title {
+  background-image: url("../../img/profile-back.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  font-size: 2.5rem;
+  position: relative;
+}
+
+.Title > * {
+  z-index: 200;
+  color: white;
+}
+
+.Title img {
+  border-radius: 50% !important;
+  height: 150px;
+  width: 150px;
+}
+
+.Title::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(78, 78, 78, 0.397);
+  overflow: hidden;
+  z-index: 100;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .Title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .Title {
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .Title {
+    font-size: 2.5rem;
+  }
+}

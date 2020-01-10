@@ -1,0 +1,26 @@
+.FormGroup > label {
+  animation-name: example;
+  animation-duration: 2s;
+  /* transform: translate(0); */
+}
+
+.Input {
+  border: 1px solid #c7e6fc;
+  resize: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.Input:focus {
+  border: 1px solid #575996;
+  outline: none;
+  box-shadow: none;
+}
+
+@keyframes example {
+  0% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

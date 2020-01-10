@@ -1,0 +1,12 @@
+.Button {
+  background-color: #575996;
+  color: #f8f9fa;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+  font-weight: bold;
+}
+
+.Button:hover {
+  background-color: #f8f9fa;
+  color: #575996;
+}
